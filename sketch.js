@@ -75,7 +75,7 @@ function draw(){
     spawnBricks();
     spawnObstacles() ;
     spawnClouds();
-    if(ground.x<0){
+    if(ground.x<200){
     ground.x = ground.width/2;
    }
     for(var i = 0;i<brickGroup.length;i++){
