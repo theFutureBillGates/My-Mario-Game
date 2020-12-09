@@ -31,7 +31,7 @@ function setup (){
   mario.debug = true;
   mario.setCollider("circle",-4,2,15);
   
-  ground = createSprite(windowWidth/2,windowHeight-41,windowWidth,20);
+  ground = createSprite(windowWidth/2,windowHeight-41,windowWidth*5,20);
   ground.addImage("ground",groundImage);
   ground.x = ground.width/2;
   ground.velocityX = -2;
